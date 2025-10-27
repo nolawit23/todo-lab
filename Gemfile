@@ -36,6 +36,8 @@ group :development, :test do
   gem "faker"
   gem "rspec-rails"
   gem "standard"
+  gem 'rubocop-rails-omakase'
+
 end
 
 group :development do
