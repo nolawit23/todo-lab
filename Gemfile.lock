@@ -81,6 +81,8 @@ GEM
     bigdecimal (3.3.1)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
+    brakeman (7.1.0)
+      racc
     builder (3.3.0)
     bullet (8.0.5)
       activesupport (>= 3.0.0)
@@ -374,6 +376,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap
+  brakeman
   bullet
   debug
   factory_bot_rails
