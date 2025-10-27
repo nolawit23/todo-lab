@@ -26,8 +26,8 @@ RSpec.describe User, type: :model do
     expect(user).not_to be_valid
   end
 
-  #it "fails intentionally for CI demonstration" do
+  # it "fails intentionally for CI demonstration" do
   # This method does not exist, so it will fail
-  #expect(User.new.non_existent_method).to eq(nil)
-  #end
+  # expect(User.new.non_existent_method).to eq(nil)
+  # end
 end
